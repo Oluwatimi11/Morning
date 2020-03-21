@@ -1,0 +1,27 @@
+/* General body style */
+body {
+    background-color: #F8EEE7;
+  }
+  /*General selector for paragraphs */
+  p {
+    background-color: #F4DECB;
+  }
+  /* specific selector for paragraphs within a section */
+  section p {
+    background-color: #94618E;
+    color: #F8EEE7;
+  }
+  /* specific selector for paragraphs within an article */
+  article p {
+    background-color: #49274A;  
+  }
+   /*specific selector for paragraphs with an id selector id="specific"  */
+  #specific {
+    background-color: #FFFFFF;
+    color: #49274A;
+  }
+  /* General selector for all paragraphs when you hover */
+  p:hover {
+    background-color: #B4DBC0 !important;
+    border: 2px dashed black;
+  }
